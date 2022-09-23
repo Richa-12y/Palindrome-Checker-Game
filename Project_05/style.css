@@ -1,0 +1,32 @@
+body{
+     height: 100vh;
+     background-color: aqua;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+}
+input{
+     outline: none;
+     width: 200px;
+     padding: 10px;
+     border-radius: 10px;
+
+}
+button{
+     padding: 10px;
+     background-color: azure;
+     border-radius: 10px;
+     cursor: pointer;
+     text-transform: capitalize;
+}
+button:hover{
+     background-color: aqua;
+     border:3px solid white;
+     color: black;
+}
+#palindrom{
+     padding: 2em;
+     color: black;
+     font-size: 2em;
+}
