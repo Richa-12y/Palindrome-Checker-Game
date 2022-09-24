@@ -14,4 +14,10 @@ targetButton.addEventListener('click',()=>{
      let userInput=targetInput.value
      let isPailndrom=userInput.split('').reverse().join('')===userInput?'This is Pailndrom':'This is not Pailndrom'
      document.getElementById('palindrom').innerHTML=isPailndrom
+     if(userInput==isPailndrom){
+          document.getElementById('palindrom').style.color='green'
+     }else{
+          document.getElementById('palindrom').style.color='red'
+
+     }
 })
